@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.util.*;
 
 public class Level2 {
-    public static LinkedList<Cord> cords = new LinkedList<>();
-
-
     private static LinkedList<Flight> flights = new LinkedList<>();
 
     public static void main(String[] args) {
@@ -66,73 +63,6 @@ public class Level2 {
             e.printStackTrace();
         }
     }
-
-
-
-    private static int findMaxTime(){
-        int max = 0;
-        for (Cord cord : cords) {
-            if(cord.getTimestamp() > max) max = cord.getTimestamp();
-        }
-        return max;
-    }
-
-    private static int findMinTime(){
-        int min = findMaxTime();
-        for (Cord cord : cords) {
-            if(cord.getTimestamp() < min) min = cord.getTimestamp();
-        }
-        return min;
-    }
-
-    private static float findMaxLat(){
-        float max = 0;
-        for (Cord cord : cords) {
-            if(cord.getLat() > max) max = cord.getLat();
-        }
-        return max;
-    }
-
-    private static float findMinLat(){
-        float min = findMaxLat();
-        for (Cord cord : cords) {
-            if(cord.getLat() < min) min = cord.getLat();
-        }
-        return min;
-    }
-
-    private static float findMaxLog(){
-        float max = 0;
-        for (Cord cord : cords) {
-            if(cord.getLog() > max) max = cord.getLog();
-        }
-        return max;
-    }
-
-    private static float findMinLog(){
-        float min = findMaxLog();
-        for (Cord cord : cords) {
-            if(cord.getLog() < min) min = cord.getLog();
-        }
-        return min;
-    }
-
-    private static float findMaxAlt(){
-        float max = 0;
-        for (Cord cord : cords) {
-            if(cord.getAlt() > max) max = cord.getAlt();
-        }
-        return max;
-    }
-
-    private static float findMinAlt(){
-        float min = findMaxAlt();
-        for (Cord cord : cords) {
-            if(cord.getAlt() < min) min = cord.getAlt();
-        }
-        return min;
-    }
-
 }
 
 
