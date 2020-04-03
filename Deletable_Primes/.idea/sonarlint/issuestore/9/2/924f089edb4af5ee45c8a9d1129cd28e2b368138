@@ -1,6 +1,0 @@
-
-_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8¨¯‹²ˆ.
-‚squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8¨¯‹²ˆ.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ñ‡šüÿÿÿÿ8¨¯‹²ˆ.
-Isquid:S14814"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8¨¯‹²ˆ.
