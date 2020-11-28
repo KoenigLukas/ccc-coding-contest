@@ -7,7 +7,7 @@ public class Level2 {
 
 
     public static void main(String[] args) {
-        try (BufferedReader reader = new BufferedReader(new FileReader("./2-level/file/level2_5.in"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("./2-level/files/level2_5.in"))) {
 
 
             int N = Integer.parseInt(reader.readLine().trim());

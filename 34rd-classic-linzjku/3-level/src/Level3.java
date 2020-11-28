@@ -3,7 +3,7 @@ import java.io.*;
 public class Level3 {
 
     public static void main(String[] args) {
-        String path = "./3-level/file/level3_5";
+        String path = "./3-level/files/level3_example";
         try (BufferedReader reader = new BufferedReader(new FileReader(path+".in"));
              PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(path+".out")))) {
 
